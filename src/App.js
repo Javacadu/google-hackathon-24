@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import "./popup"
 
 function App() {
   return (
     <div className="App">
-      <body>Hello Extensions</body>
+      <body>
+        <h1>Hello</h1>
+        <script src="popup.js"></script>
+      </body>
     </div>
   );
 }
